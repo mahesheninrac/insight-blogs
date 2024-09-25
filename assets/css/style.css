@@ -259,6 +259,16 @@ a:hover {
   text-decoration-thickness: 2px;
 }
 
+p {
+  margin-bottom: 2rem;
+  margin-top: 0;
+}
+
+img {
+  width: 100%;
+  border-style: none;
+}
+
 /* Header style */
 
 @media (min-width: 51.25em) {
@@ -311,8 +321,6 @@ a:hover {
   text-decoration-color: var(--primary-600);
 }
 
-
-
 .parent-Container__wrapper {
   width: min(calc(100% - 2rem), 80.875rem);
   margin: 0 auto;
@@ -324,6 +332,10 @@ a:hover {
   h1 {
     line-height: 1.2;
   }
+}
+
+.archive-page-header {
+  padding: 6rem 0 !important;
 }
 
 .archive-page-header__title {
@@ -354,6 +366,29 @@ a:hover {
 }
 
 /* Category Items List Page */
+
+/* category item page  */
+
+@media (min-width: 64em) {
+  .article-header {
+    align-items: center;
+    display: flex;
+    padding-bottom: 0;
+    padding-top: 5rem;
+  }
+}
+
+.article-hero--single {
+  opacity: 0;
+  max-width: 80.875rem;
+  transform: translateY(10px);
+  transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+.article-hero--single.article-hero--is-visible {
+  transform: translateY(0);
+  opacity: 1;
+}
 
 /* Footer style */
 

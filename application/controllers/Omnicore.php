@@ -18,6 +18,7 @@ class Omnicore extends Default_Controler
         if ($id == 'csuiteintelligence') $this->csuiteintelligence();
         if ($id == 'newenergies') $this->newenergies();
         if ($id == 'insightspage') $this->insightspage();
+        if ($id == 'insightdetailpage') $this->insightdetailpage();
     }
 
     private function login()
@@ -28,6 +29,10 @@ class Omnicore extends Default_Controler
     private function wideangleview()
     {
         $this->load->view('frontend/wideangleview');
+    }
+    private function insightdetailpage()
+    {
+        $this->load->view('frontend/insightDetailspage');
     }
     private function csuiteintelligence()
     {

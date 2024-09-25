@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "category": "The Wide-Angle View",
+    "title": "What Will Drive India’s Growth for the Next 20 Years?",
+    "description": "According to Aashish Agarwal, the Jefferies country head, the country’s economy has undergone profound changes that are often not discussed or understood.",
+    "imageUrl": "https://insights-api.jefferies.com/wp-content/uploads/2024/09/f4b912a2-af15-4b4d-b993-67fec2c881d9.jpg?w=750&q=75"
+  },
+  {
+    "id":1,
+    "category":"The C-Suite Intelligence",
+    "title":"Can Startups Outsmart Big Tech in the AI Race?",
+    "description":"Technology revolutions like the internet and mobile computing always reshape the business landscape — but in different ways.",
+    
+  }
+]

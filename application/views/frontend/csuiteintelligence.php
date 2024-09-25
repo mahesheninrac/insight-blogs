@@ -2,7 +2,7 @@
 
 <div class="category-archives">
     <div class="archive-page-without-headerimage pb-5">
-        <div class="archive-page-header mb-5 bg-navydarklight-700 py-5">
+        <div class="archive-page-header mb-5 bg-navydarklight-700">
             <div class="archive-page-header__wrap container">
                 <div class="archive-page-header__content">
                     <h1 class="archive-page-header__title text-white fs-heading-1 fw-300">The C-Suite Intelligence</h1>
