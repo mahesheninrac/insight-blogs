@@ -178,31 +178,7 @@
         margin-top: 2rem;
     }
 
-    .wp-block-button__link,
-    input[type="submit"] {
-        background: #0a1c3c;
-        border: .125rem solid #0a1c3c;
-        border-bottom-right-radius: 1.25rem;
-        color: #fff;
-        cursor: pointer;
-        display: inline-block;
-        font-size: 1.125rem;
-        font-weight: 500;
-        letter-spacing: .03em;
-        line-height: 1;
-        padding: 1rem 2.75rem;
-        text-align: center;
-        -webkit-text-decoration: none;
-        text-decoration: none;
-        transition: background-color 0.15s, color 0.15s, border-color 0.15s;
-    }
-
-    .wp-block-button__link:hover {
-        background: #0067c6;
-        color: #fff;
-        border-color: #0067c6;
-        text-decoration: underline;
-    }
+    
 </style>
 
 <div class="parent-Container__wrapper">

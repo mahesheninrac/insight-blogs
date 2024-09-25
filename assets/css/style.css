@@ -49,6 +49,10 @@
   font-size: var(--fs-heading-1);
 }
 
+.h1 {
+  font-size: var(--fs-heading-1);
+}
+
 body {
   font-size: var(--fs-body-copy);
 }
@@ -259,6 +263,32 @@ a:hover {
   text-decoration-thickness: 2px;
 }
 
+.wp-block-button__link,
+input[type="submit"] {
+  background: #0a1c3c;
+  border: 0.125rem solid #0a1c3c;
+  border-bottom-right-radius: 1.25rem;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.125rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  padding: 1rem 2.75rem;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.wp-block-button__link:hover {
+  background: #0067c6;
+  color: #fff;
+  border-color: #0067c6;
+  text-decoration: underline;
+}
+
 p {
   margin-bottom: 2rem;
   margin-top: 0;
@@ -322,7 +352,7 @@ img {
 }
 
 .parent-Container__wrapper {
-  width: min(calc(100% - 2rem), 80.875rem);
+  width: min(calc(100% - 4rem), 80.875rem);
   margin: 0 auto;
 }
 
@@ -366,6 +396,50 @@ img {
 }
 
 /* Category Items List Page */
+
+/* card grid item style */
+.card-grid-item__title-contain{
+  font-size: 1.25rem;
+  padding-top: 2rem !important;
+}
+
+.card-grid-item__meta-cat {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.card-grid-item__title-link,
+.card-grid-item__meta-cat-text {
+  margin-bottom: 0;
+  color: #0a1c3c;
+  text-decoration: none;
+  transition: text-decoration-color 0.15s, color 0.15s;
+}
+
+.card-grid-item__title-link:hover {
+  color: #0067c6;
+  text-decoration: underline;
+}
+
+.card-grid-item__title-link::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  right: 0;
+}
+
+.card-grid-item__title {
+  font-size: clamp(1.5rem, 1.563rem + 1.202vw, 1.75rem);
+  line-height: 1.35;
+  margin-bottom: 0.5rem;
+  transition: text-decoration-color 0.15s, color 0.15s;
+}
 
 /* category item page  */
 

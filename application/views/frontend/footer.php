@@ -33,7 +33,7 @@
         <div class="parent-Container__wrapper">
             <div class="footer__content row align-items-start">
                 <div class="col-md-5">
-                    <p class="footer__company-info d-flex justify-content-md-start mb-md-0">Eninrac Consulting Private Limited, 2nd Floor, B-130, B-Block, Sector 65, Noida - 201301, Uttar Pradesh</p>
+                    <p class="footer__company-info d-flex text-start justify-content-md-start mb-md-0">Eninrac Consulting Private Limited, 2nd Floor, B-130, B-Block, Sector 65, Noida - 201301, Uttar Pradesh</p>
                 </div>
                 <div class="col-md-7">
                     <div class="footer__disclosures d-flex flex-wrap justify-content-md-end justify-content-sm-center align-items-center">
