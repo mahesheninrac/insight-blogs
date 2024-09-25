@@ -365,7 +365,7 @@ img {
 }
 
 .archive-page-header {
-  padding: 6rem 0 !important;
+  padding: 4.5rem 0 !important;
 }
 
 .archive-page-header__title {
@@ -398,7 +398,7 @@ img {
 /* Category Items List Page */
 
 /* card grid item style */
-.card-grid-item__title-contain{
+.card-grid-item__title-contain {
   font-size: 1.25rem;
   padding-top: 2rem !important;
 }

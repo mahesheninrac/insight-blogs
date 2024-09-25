@@ -102,13 +102,17 @@
         border-color: #0067c6;
         color: white;
     }
+
+    .block-homepage-featured__featured {
+        padding-top: 3.5rem;
+    }
 </style>
 <main>
     <div class="parent-Container__wrapper">
         <div class="">
             <div class="block-homepage-featured block-homepage-featured--is-visible">
                 <div class="w-100 h-100">
-                    <div class="d-flex align-items-md-start flex-md-row-reverse flex-column position-relative pt-2">
+                    <div class="block-homepage-featured__featured d-flex align-items-md-start flex-md-row-reverse flex-column position-relative">
                         <div class="block-homepage-featured__featured__image">
                             <a href="">
                                 <div class="w-100 h-100">
@@ -160,13 +164,51 @@
                                 </div>
                             </div>
 
+                            <div class="col-md-4 col-sm-6">
+                                <div class="bg-darklight-100 position-relative">
+                                    <div class="card-grid-item__image">
+                                        <figure class="card-grid-item__image-fit m-0">
+                                            <img width="100%" height="100%" src="https://insights-api.jefferies.com/wp-content/uploads/2024/09/f4b912a2-af15-4b4d-b993-67fec2c881d9.jpg?w=750&q=75" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="card-grid-item__title-contain fs-20">
+                                        <div class="card-grid-item__meta-cat mb-2">
+                                            <a href="" class="card-grid-item__meta-cat-text text-dark text-uppercase text-decoration-none">The Big Picture</a>
+                                        </div>
+                                        <a href="" class="card-grid-item__title-link mb-2">
+                                            <h2 class="card-grid-item__title fw-500 text-decoration-none">What Will Drive India’s Growth for the Next 20 Years?</h2>
+                                        </a>
+                                        <p class="my-0 fs-18">According to Aashish Agarwal, the Jefferies country head, the country’s economy has undergone profound changes that are often not discussed or understood.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-6">
+                                <div class="bg-darklight-100 position-relative">
+                                    <div class="card-grid-item__image">
+                                        <figure class="card-grid-item__image-fit m-0">
+                                            <img width="100%" height="100%" src="https://insights-api.jefferies.com/wp-content/uploads/2024/09/f4b912a2-af15-4b4d-b993-67fec2c881d9.jpg?w=750&q=75" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="card-grid-item__title-contain fs-20">
+                                        <div class="card-grid-item__meta-cat mb-2">
+                                            <a href="" class="card-grid-item__meta-cat-text text-dark text-uppercase text-decoration-none">The Big Picture</a>
+                                        </div>
+                                        <a href="" class="card-grid-item__title-link mb-2">
+                                            <h2 class="card-grid-item__title fw-500 text-decoration-none">What Will Drive India’s Growth for the Next 20 Years?</h2>
+                                        </a>
+                                        <p class="my-0 fs-18">According to Aashish Agarwal, the Jefferies country head, the country’s economy has undergone profound changes that are often not discussed or understood.</p>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
 
             <article class="block-featured-content">
-                
+
             </article>
         </div>
 
