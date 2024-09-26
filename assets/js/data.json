@@ -1,16 +1,242 @@
 [
   {
-    "id": 1,
-    "category": "The Wide-Angle View",
-    "title": "What Will Drive India’s Growth for the Next 20 Years?",
-    "description": "According to Aashish Agarwal, the Jefferies country head, the country’s economy has undergone profound changes that are often not discussed or understood.",
-    "imageUrl": "https://insights-api.jefferies.com/wp-content/uploads/2024/09/f4b912a2-af15-4b4d-b993-67fec2c881d9.jpg?w=750&q=75"
+      "id": "1",
+      "TheWideAngleView": "T-WAV",
+      "Resource": "RV",
+      "TypeofPost": "Report Content",
+      "MaterialUsed": "Text & Graphs",
+      "Frequency": "Monthly",
+      "MonthlyTotal": "1",
+      "ActvitiyType": "Individual"
   },
   {
-    "id":1,
-    "category":"The C-Suite Intelligence",
-    "title":"Can Startups Outsmart Big Tech in the AI Race?",
-    "description":"Technology revolutions like the internet and mobile computing always reshape the business landscape — but in different ways.",
-    
+      "id": "2",
+      "TheWideAngleView": "T-WAV",
+      "Resource": "RV",
+      "TypeofPost": "Flyer Content",
+      "MaterialUsed": "Text & Graphs",
+      "Frequency": "Fortnightly",
+      "MonthlyTotal": "2",
+      "ActvitiyType": "Individual"
+  },
+  {
+      "id": "3",
+      "TheWideAngleView": "T-WAV",
+      "Resource": "RV",
+      "TypeofPost": "Consulting Content",
+      "MaterialUsed": "Text & Graphs",
+      "Frequency": "Monthly",
+      "MonthlyTotal": "1",
+      "ActvitiyType": "Individual"
+  },
+  {
+      "id": "4",
+      "TheWideAngleView": "T-WAV",
+      "Resource": "RV",
+      "TypeofPost": "Expert View Point",
+      "MaterialUsed": "Only Text",
+      "Frequency": "Weekly",
+      "MonthlyTotal": "4",
+      "ActvitiyType": "Individual"
+  },
+  {
+      "id": "5",
+      "TheWideAngleView": "T-WAV",
+      "Resource": "RV",
+      "TypeofPost": "Group Call on Report Content",
+      "MaterialUsed": "Video & Text",
+      "Frequency": "Monthly",
+      "MonthlyTotal": "1",
+      "ActvitiyType": "Team"
+  },
+  {
+      "id": "6",
+      "TheWideAngleView": "T-WAV",
+      "Resource": "RV",
+      "TypeofPost": "Group Call on Sector Movements",
+      "MaterialUsed": "Video & Text",
+      "Frequency": "Monthly",
+      "MonthlyTotal": "1",
+      "ActvitiyType": "Team"
+  },
+  {
+      "id": "7",
+      "TheWideAngleView": "T-WAV",
+      "Resource": "RV",
+      "TypeofPost": "Group Call with 3rd Party",
+      "MaterialUsed": "Video & Text",
+      "Frequency": "Monthly",
+      "MonthlyTotal": "1",
+      "ActvitiyType": "Team"
+  },
+  {
+      "id": "8",
+      "TheWideAngleView": "T-WAV",
+      "Resource": "RV",
+      "TypeofPost": "One on One Call with 3rd Party",
+      "MaterialUsed": "Video & Text",
+      "Frequency": "Monthly",
+      "MonthlyTotal": "1",
+      "ActvitiyType": "Team"
+  },
+  {
+      "id": "9",
+      "TheWideAngleView": "T-WAV",
+      "Resource": "NS",
+      "TypeofPost": "Report Content",
+      "MaterialUsed": "Text & Graphs",
+      "Frequency": "Monthly",
+      "MonthlyTotal": "1",
+      "ActvitiyType": "Individual"
+  },
+  {
+      "id": "10",
+      "TheWideAngleView": "T-WAV",
+      "Resource": "NS",
+      "TypeofPost": "Flyer Content",
+      "MaterialUsed": "Text & Graphs",
+      "Frequency": "Fortnightly",
+      "MonthlyTotal": "2",
+      "ActvitiyType": "Individual"
+  },
+  {
+      "id": "11",
+      "TheWideAngleView": "T-WAV",
+      "Resource": "NS",
+      "TypeofPost": "Consulting Content",
+      "MaterialUsed": "Text & Graphs",
+      "Frequency": "Monthly",
+      "MonthlyTotal": "1",
+      "ActvitiyType": "Individual"
+  },
+  {
+      "id": "12",
+      "TheWideAngleView": "T-WAV",
+      "Resource": "NS",
+      "TypeofPost": "Expert View Point",
+      "MaterialUsed": "Only Text",
+      "Frequency": "Weekly",
+      "MonthlyTotal": "4",
+      "ActvitiyType": "Individual"
+  },
+  {
+      "id": "13",
+      "TheWideAngleView": "T-WAV",
+      "Resource": "NS",
+      "TypeofPost": "Group Call on Report Content",
+      "MaterialUsed": "Video & Text",
+      "Frequency": "Monthly",
+      "MonthlyTotal": "1",
+      "ActvitiyType": "Team"
+  },
+  {
+      "id": "14",
+      "TheWideAngleView": "T-WAV",
+      "Resource": "NS",
+      "TypeofPost": "Group Call on Sector Movements",
+      "MaterialUsed": "Video & Text",
+      "Frequency": "Monthly",
+      "MonthlyTotal": "1",
+      "ActvitiyType": "Team"
+  },
+  {
+      "id": "15",
+      "TheWideAngleView": "T-WAV",
+      "Resource": "NS",
+      "TypeofPost": "Group Call with 3rd Party",
+      "MaterialUsed": "Video & Text",
+      "Frequency": "Monthly",
+      "MonthlyTotal": "1",
+      "ActvitiyType": "Team"
+  },
+  {
+      "id": "16",
+      "TheWideAngleView": "T-WAV",
+      "Resource": "NS",
+      "TypeofPost": "One on One Call with 3rd Party",
+      "MaterialUsed": "Video & Text",
+      "Frequency": "Monthly",
+      "MonthlyTotal": "1",
+      "ActvitiyType": "Team"
+  },
+  {
+      "id": "17",
+      "TheWideAngleView": "T-WAV",
+      "Resource": "SKM",
+      "TypeofPost": "Report Content",
+      "MaterialUsed": "Text & Graphs",
+      "Frequency": "None",
+      "MonthlyTotal": "0",
+      "ActvitiyType": "Individual"
+  },
+  {
+      "id": "18",
+      "TheWideAngleView": "T-WAV",
+      "Resource": "SKM",
+      "TypeofPost": "Flyer Content",
+      "MaterialUsed": "Text & Graphs",
+      "Frequency": "None",
+      "MonthlyTotal": "0",
+      "ActvitiyType": "Individual"
+  },
+  {
+      "id": "19",
+      "TheWideAngleView": "T-WAV",
+      "Resource": "SKM",
+      "TypeofPost": "Consulting Content",
+      "MaterialUsed": "Text & Graphs",
+      "Frequency": "None",
+      "MonthlyTotal": "0",
+      "ActvitiyType": "Individual"
+  },
+  {
+      "id": "20",
+      "TheWideAngleView": "T-WAV",
+      "Resource": "SKM",
+      "TypeofPost": "Expert View Point",
+      "MaterialUsed": "Only Text",
+      "Frequency": "Weekly",
+      "MonthlyTotal": "4",
+      "ActvitiyType": "Individual"
+  },
+  {
+      "id": "21",
+      "TheWideAngleView": "T-WAV",
+      "Resource": "SKM",
+      "TypeofPost": "Group Call on Report Content",
+      "MaterialUsed": "Video & Text",
+      "Frequency": "Monthly",
+      "MonthlyTotal": "1",
+      "ActvitiyType": "Team"
+  },
+  {
+      "id": "22",
+      "TheWideAngleView": "T-WAV",
+      "Resource": "SKM",
+      "TypeofPost": "Group Call on Sector Movements",
+      "MaterialUsed": "Video & Text",
+      "Frequency": "Monthly",
+      "MonthlyTotal": "1",
+      "ActvitiyType": "Team"
+  },
+  {
+      "id": "23",
+      "TheWideAngleView": "T-WAV",
+      "Resource": "SKM",
+      "TypeofPost": "Group Call with 3rd Party",
+      "MaterialUsed": "Video & Text",
+      "Frequency": "Monthly",
+      "MonthlyTotal": "1",
+      "ActvitiyType": "Team"
+  },
+  {
+      "id": "24",
+      "TheWideAngleView": "T-WAV",
+      "Resource": "SKM",
+      "TypeofPost": "One on One Call with 3rd Party",
+      "MaterialUsed": "Video & Text",
+      "Frequency": "None",
+      "MonthlyTotal": "0",
+      "ActvitiyType": "Team"
   }
 ]

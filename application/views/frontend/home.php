@@ -18,9 +18,7 @@
         .block-homepage-featured__featured__text {
             width: 45% !important;
             padding-right: 6.5rem;
-
         }
-
 
         .block-homepage-featured .card-grid {
             margin-top: 4.5rem !important;
@@ -36,7 +34,6 @@
         /* opacity: 0; */
         overflow: hidden;
         position: relative;
-
         width: 100%;
         z-index: 1;
     }
@@ -91,17 +88,7 @@
         text-decoration: none;
     }
 
-    .button.is-style-alt {
-        background-color: white;
-        border-color: white;
-        color: #0a1c3c;
-    }
-
-    .button.is-style-alt:hover {
-        background-color: #0067c6;
-        border-color: #0067c6;
-        color: white;
-    }
+   
 
     .block-homepage-featured__featured {
         padding-top: 3.5rem;
@@ -144,7 +131,7 @@
                         </div>
                     </div>
                     <div class="card-grid">
-                        <div class="row">
+                        <div class="row row-gap-5">
                             <div class="col-md-4 col-sm-6">
                                 <div class="bg-darklight-100 position-relative">
                                     <div class="card-grid-item__image">

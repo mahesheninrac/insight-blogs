@@ -177,23 +177,21 @@
     .article-content>*+* {
         margin-top: 2rem;
     }
-
-    
 </style>
 
 <div class="parent-Container__wrapper">
     <article class="article" style="min-height: 100vh; height:auto">
-        <div class="article__top container-xxl">
+        <div class="article__top ">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="article-header w-100 h-100 ">
+                <div class="col-md-7">
+                    <div class="article-header pt-sm-4 pb-sm-2 w-100 h-100 ">
                         <div class="article-header__content">
                             <p class="article-header__top">
                                 <a href="<?= base_url() ?>wideangleview" class="article-header__category-link">
                                     The Wide-Angle View
                                 </a>
                             </p>
-                            <h1 class="article-header__title">
+                            <h1 class="article-header__title animate__backInLeft">
                                 Mid-Year Review: A Record-Breaking 1H of 2024 for the Secondary Market
                             </h1>
                             <div class="article-header__meta">
@@ -224,10 +222,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-5">
                     <div class="article-hero w-100 h-100 article-hero--single 
                     ">
-                        <figure class="m-0 article-hero__image-contain">
+                        <figure class="m-0 article-hero__image-contain animate__animated animate__bounce">
                             <img
                                 class="article-hero__image"
                                 src="https://insights-api.jefferies.com/wp-content/uploads/2023/09/Convertible-Debt-High-Low.jpg?w=3840&q=75"
@@ -253,6 +251,7 @@
         </div>
     </article>
 </div>
+
 
 
 <?php require(APPPATH . 'views/frontend/footer.php'); ?>

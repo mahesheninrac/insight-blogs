@@ -24,7 +24,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 |
 */
 $config['base_url'] = 'http://localhost/insights/';
-// $config['base_url'] = 'http://192.168.1.11/omnicore/';
+// $config['base_url'] = 'http://192.168.1.11/insights/';
 
 /*
 |--------------------------------------------------------------------------

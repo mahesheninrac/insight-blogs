@@ -17,7 +17,17 @@
             <?php require(APPPATH . 'views/frontend/categoryitems.php'); ?>
         </div>
     </div>
-    <div class="blog-newsletter-signup"></div>
+    <div class="blog-newsletter-signup">
+        <div class="block-newsletter-signup__text parent-Container__wrapper">
+            <h3 class="block-newsletter-signup__title h1">
+                Stay Current With Updates
+            </h3>
+            <p class="block-newsletter-signup__subtitle">Subscribe to our email for all our latest insights and timely content.</p>
+            <button class="block-newsletter-signup__cta button is-style-alt">
+                Sign Up
+            </button>
+        </div>
+    </div>
 </div>
 
 <?php require(APPPATH . 'views/frontend/footer.php'); ?>
