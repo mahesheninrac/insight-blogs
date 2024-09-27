@@ -14,11 +14,11 @@ class Omnicore extends Default_Controler
     public function page($id)
     {
         if ($id == 'login') $this->login();
-        if ($id == 'wideangleview') $this->wideangleview();
-        if ($id == 'csuiteintelligence') $this->csuiteintelligence();
-        if ($id == 'newenergies') $this->newenergies();
-        if ($id == 'insightspage') $this->insightspage();
-        if ($id == 'insightdetailpage') $this->insightdetailpage();
+        if ($id == 'the-wide-angle-view') $this->wideangleview();
+        if ($id == 'c-suite-intelligence') $this->csuiteintelligence();
+        if ($id == 'new-energies') $this->newenergies();
+        if ($id == 'insights') $this->insightspage();
+        if ($id == 'insight-details') $this->insightdetailpage();
         if ($id == 'search') $this->searchpage();
     }
 
