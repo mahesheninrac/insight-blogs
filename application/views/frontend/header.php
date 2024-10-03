@@ -31,7 +31,6 @@
                             <div class="site-header__title">
                                 <a href="<?= base_url() ?>" class="site-header__logo text-decoration-none">
                                     <h5 class="fw-700">
-
                                         Insights
                                     </h5>
                                 </a>
@@ -86,17 +85,14 @@
     </header>
     <script>
         let loader = document.querySelector(".progress-indicator")
-
+        
         function showSpinner() {
             loader.classList.add("is-animating")
         }
-
         function hideSpinner() {
             loader.classList.remove("is-animating")
         }
-
         window.addEventListener('load', function() {
-
             let link = document.querySelectorAll('.menu__item a')
             let currenturl = window.location.href;
             link.forEach(function(item) {

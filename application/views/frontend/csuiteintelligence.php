@@ -17,7 +17,7 @@
             <?php require(APPPATH . 'views/frontend/categoryitems.php'); ?>
         </div>
     </div>
-    <div class="blog-newsletter-signup"></div>
+
 </div>
 
 <?php require(APPPATH . 'views/frontend/footer.php'); ?>

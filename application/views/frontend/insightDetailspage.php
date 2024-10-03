@@ -181,7 +181,7 @@
 
 <div class="parent-Container__wrapper">
     <article class="article" style="min-height: 100vh; height:auto">
-        <div class="article__top ">
+        <div class="article__top">
             <div class="row">
                 <div class="col-md-7">
                     <div class="article-header pt-sm-4 pb-sm-2 w-100 h-100 ">
@@ -236,7 +236,6 @@
                 </div>
             </div>
         </div>
-
         <div class="article-content content">
             <p>The convertible debt new issue market in 2023 has been frequented by companies seeking a lower cash interest alternative to what is being offered in the high yield and investment grade debt markets. Historically, convertible debt has been a common financing tool for high-growth businesses because it offers an attractive cost of capital relative to debt or equity, no financial covenants and an investor base supportive of general corporate purpose use of proceeds. About two-thirds of convertible transactions annually from 2020 to 2022 used proceeds for general corporate purposes or for M&A financing.</p>
             <p>
@@ -252,7 +251,5 @@
         </div>
     </article>
 </div>
-
-
 
 <?php require(APPPATH . 'views/frontend/footer.php'); ?>

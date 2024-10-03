@@ -1,13 +1,58 @@
 <style>
-
+    .form-input input {
+        padding: 0.75rem;
+        font-size: 1rem;
+        border-radius: 0;
+        background-color: #fff;
+        color: #0a1c3c;
+        width: 100%;
+        border: 1px solid #123d68;
+    }
 </style>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="">
+                    <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <h3>
+                    Join the Insights Mailing List
+                </h3>
+                <form action="" class="d-flex flex-column gap-3">
+                    <input type="hidden" id="newsletter_signup_nonce" name="newsletter_signup_nonce" value="8f1eaf9986">
+                    <div class="form-input">
+                        <input id="manual-newsletter-signup_firstname" name="firstname" placeholder="First Name" required="" type="text" aria-describedby="manual-newsletter-signup-first_name-error">
+                    </div>
+                    <div class="form-input">
+                        <input id="manual-newsletter-signup_lastname" name="lastname" placeholder="Last Name" required="" type="text" aria-describedby="manual-newsletter-signup-last_name-error">
+                    </div>
+                    <div class="form-input">
+                        <input id="manual-newsletter-signup_email" name="email" placeholder="Enter Your Email…" required="" type="email" aria-describedby="manual-newsletter-signup-email-error" data-gtm-form-interact-field-id="2">
+                    </div>
+                    <div class="form-input">
+                        <input id="manual-newsletter-signup_company" name="company" placeholder="Company" required="" type="text" aria-describedby="manual-newsletter-signup-company-error" data-gtm-form-interact-field-id="3">
+                    </div>
+                    <div class="form-actions">
+                        <button class="form-action button wp-block-button__link" data-bs-dismiss="modal" type="submit">
+                            Sign up now </button>
+                    </div>
+                    <div id="manual-newsletter-signup-messages" class="form-messages" aria-live="polite"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="blog-newsletter-signup">
+
     <div class="block-newsletter-signup__text parent-Container__wrapper">
         <h3 class="block-newsletter-signup__title h1">
             Stay Current With Updates
         </h3>
         <p class="block-newsletter-signup__subtitle">Subscribe to our email for all our latest insights and timely content.</p>
-        <button class="block-newsletter-signup__cta button is-style-alt">
+        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="block-newsletter-signup__cta button is-style-alt">
             Sign Up
         </button>
     </div>

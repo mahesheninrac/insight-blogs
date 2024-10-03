@@ -563,6 +563,14 @@ input[type="submit"] {
   color: #0a1c3c;
 }
 
+article.hover-card {
+  transition: transform 100ms ease-in-out;
+}
+
+article.hover-card:hover {
+  transform: scale(1.05);
+}
+
 .button.is-style-alt:hover {
   background-color: #0067c6;
   border-color: #0067c6;

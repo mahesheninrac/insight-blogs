@@ -46,7 +46,6 @@
         position: relative;
         z-index: 1;
     }
-
     .block-homepage-featured__curve {
         background: linear-gradient(347.38deg, #1a3867 -3.09%, #123d68 132.76%);
         content: "";
@@ -88,7 +87,7 @@
         text-decoration: none;
     }
 
-   
+
 
     .block-homepage-featured__featured {
         padding-top: 3.5rem;
@@ -96,7 +95,7 @@
 </style>
 <main>
     <div class="parent-Container__wrapper">
-        <div class="">
+        <div>
             <div class="block-homepage-featured block-homepage-featured--is-visible">
                 <div class="w-100 h-100">
                     <div class="block-homepage-featured__featured d-flex align-items-md-start flex-md-row-reverse flex-column position-relative">
@@ -193,12 +192,9 @@
                     </div>
                 </div>
             </div>
-
             <article class="block-featured-content">
-
             </article>
         </div>
-
     </div>
 </main>
 <?php require(APPPATH . 'views/frontend/footer.php'); ?>
