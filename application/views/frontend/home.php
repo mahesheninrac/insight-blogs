@@ -46,6 +46,7 @@
         position: relative;
         z-index: 1;
     }
+
     .block-homepage-featured__curve {
         background: linear-gradient(347.38deg, #1a3867 -3.09%, #123d68 132.76%);
         content: "";
@@ -92,6 +93,29 @@
     .block-homepage-featured__featured {
         padding-top: 3.5rem;
     }
+
+    @media (min-width:48em) {
+        h2.h4.hover-card__link {
+            line-height: 1.3;
+            font-size: 1.75rem
+        }
+    }
+
+    @media (min-width:64em) {
+        h2.h4.hover-card__link {
+            line-height: 1;
+
+        }
+    }
+
+    h2.h4.hover-card__link {
+        line-height: 1.3;
+        font-size: clamp(1.5rem, calc(30 / 1200 * 100vw), 1.875rem);
+    }
+
+    .wp-block-heading.has-heading-section-font-size {
+        font-size: clamp(2.5rem, calc(64 / 1200 * 100vw), 3.375rem);
+    }
 </style>
 <main>
     <div class="parent-Container__wrapper">
@@ -129,71 +153,132 @@
                             </svg>
                         </div>
                     </div>
-                    <div class="card-grid">
-                        <div class="row row-gap-5">
-                            <div class="col-md-4 col-sm-6">
-                                <div class="bg-darklight-100 position-relative">
-                                    <div class="card-grid-item__image">
-                                        <figure class="card-grid-item__image-fit m-0">
-                                            <img width="100%" height="100%" src="https://insights-api.jefferies.com/wp-content/uploads/2024/09/f4b912a2-af15-4b4d-b993-67fec2c881d9.jpg?w=750&q=75" alt="">
-                                        </figure>
-                                    </div>
-                                    <div class="card-grid-item__title-contain fs-20">
-                                        <div class="card-grid-item__meta-cat mb-2">
-                                            <a href="" class="card-grid-item__meta-cat-text text-dark text-uppercase text-decoration-none">The Big Picture</a>
+                    <div class="container">
+                        <div class="card-grid">
+                            <div class="row row-gap-5">
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="bg-darklight-100 position-relative">
+                                        <div class="card-grid-item__image">
+                                            <figure class="card-grid-item__image-fit m-0">
+                                                <img width="100%" height="100%" src="https://insights-api.jefferies.com/wp-content/uploads/2024/09/f4b912a2-af15-4b4d-b993-67fec2c881d9.jpg?w=750&q=75" alt="">
+                                            </figure>
                                         </div>
-                                        <a href="" class="card-grid-item__title-link mb-2">
-                                            <h2 class="card-grid-item__title fw-500 text-decoration-none">What Will Drive India’s Growth for the Next 20 Years?</h2>
-                                        </a>
-                                        <p class="my-0 fs-18">According to Aashish Agarwal, the Jefferies country head, the country’s economy has undergone profound changes that are often not discussed or understood.</p>
+                                        <div class="card-grid-item__title-contain fs-20">
+                                            <div class="card-grid-item__meta-cat mb-2">
+                                                <a href="" class="card-grid-item__meta-cat-text text-dark text-uppercase text-decoration-none">The Big Picture</a>
+                                            </div>
+                                            <a href="" class="card-grid-item__title-link mb-2">
+                                                <h2 class="card-grid-item__title fw-500 text-decoration-none">What Will Drive India’s Growth for the Next 20 Years?</h2>
+                                            </a>
+                                            <p class="my-0 fs-18">According to Aashish Agarwal, the Jefferies country head, the country’s economy has undergone profound changes that are often not discussed or understood.</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="col-md-4 col-sm-6">
-                                <div class="bg-darklight-100 position-relative">
-                                    <div class="card-grid-item__image">
-                                        <figure class="card-grid-item__image-fit m-0">
-                                            <img width="100%" height="100%" src="https://insights-api.jefferies.com/wp-content/uploads/2024/09/f4b912a2-af15-4b4d-b993-67fec2c881d9.jpg?w=750&q=75" alt="">
-                                        </figure>
-                                    </div>
-                                    <div class="card-grid-item__title-contain fs-20">
-                                        <div class="card-grid-item__meta-cat mb-2">
-                                            <a href="" class="card-grid-item__meta-cat-text text-dark text-uppercase text-decoration-none">The Big Picture</a>
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="bg-darklight-100 position-relative">
+                                        <div class="card-grid-item__image">
+                                            <figure class="card-grid-item__image-fit m-0">
+                                                <img width="100%" height="100%" src="https://insights-api.jefferies.com/wp-content/uploads/2024/09/f4b912a2-af15-4b4d-b993-67fec2c881d9.jpg?w=750&q=75" alt="">
+                                            </figure>
                                         </div>
-                                        <a href="" class="card-grid-item__title-link mb-2">
-                                            <h2 class="card-grid-item__title fw-500 text-decoration-none">What Will Drive India’s Growth for the Next 20 Years?</h2>
-                                        </a>
-                                        <p class="my-0 fs-18">According to Aashish Agarwal, the Jefferies country head, the country’s economy has undergone profound changes that are often not discussed or understood.</p>
+                                        <div class="card-grid-item__title-contain fs-20">
+                                            <div class="card-grid-item__meta-cat mb-2">
+                                                <a href="" class="card-grid-item__meta-cat-text text-dark text-uppercase text-decoration-none">The Big Picture</a>
+                                            </div>
+                                            <a href="" class="card-grid-item__title-link mb-2">
+                                                <h2 class="card-grid-item__title fw-500 text-decoration-none">What Will Drive India’s Growth for the Next 20 Years?</h2>
+                                            </a>
+                                            <p class="my-0 fs-18">According to Aashish Agarwal, the Jefferies country head, the country’s economy has undergone profound changes that are often not discussed or understood.</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="col-md-4 col-sm-6">
-                                <div class="bg-darklight-100 position-relative">
-                                    <div class="card-grid-item__image">
-                                        <figure class="card-grid-item__image-fit m-0">
-                                            <img width="100%" height="100%" src="https://insights-api.jefferies.com/wp-content/uploads/2024/09/f4b912a2-af15-4b4d-b993-67fec2c881d9.jpg?w=750&q=75" alt="">
-                                        </figure>
-                                    </div>
-                                    <div class="card-grid-item__title-contain fs-20">
-                                        <div class="card-grid-item__meta-cat mb-2">
-                                            <a href="" class="card-grid-item__meta-cat-text text-dark text-uppercase text-decoration-none">The Big Picture</a>
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="bg-darklight-100 position-relative">
+                                        <div class="card-grid-item__image">
+                                            <figure class="card-grid-item__image-fit m-0">
+                                                <img width="100%" height="100%" src="https://insights-api.jefferies.com/wp-content/uploads/2024/09/f4b912a2-af15-4b4d-b993-67fec2c881d9.jpg?w=750&q=75" alt="">
+                                            </figure>
                                         </div>
-                                        <a href="" class="card-grid-item__title-link mb-2">
-                                            <h2 class="card-grid-item__title fw-500 text-decoration-none">What Will Drive India’s Growth for the Next 20 Years?</h2>
-                                        </a>
-                                        <p class="my-0 fs-18">According to Aashish Agarwal, the Jefferies country head, the country’s economy has undergone profound changes that are often not discussed or understood.</p>
+                                        <div class="card-grid-item__title-contain fs-20">
+                                            <div class="card-grid-item__meta-cat mb-2">
+                                                <a href="#" class="card-grid-item__meta-cat-text text-dark text-uppercase text-decoration-none">The Big Picture</a>
+                                            </div>
+                                            <a href="#" class="card-grid-item__title-link mb-2">
+                                                <h2 class="card-grid-item__title fw-500 text-decoration-none">What Will Drive India’s Growth for the Next 20 Years?</h2>
+                                            </a>
+                                            <p class="my-0 fs-18">According to Aashish Agarwal, the Jefferies country head, the country’s economy has undergone profound changes that are often not discussed or understood.</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <article class="block-featured-content">
-            </article>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="py-5">
+            <h2 class="wp-block-heading has-heading-section-font-size mb-3">Featured Content</h2>
+            <div class="mt-3">
+                <div class="row row-gap-5">
+                    <div class="col-md-6">
+                        <figure class="h-100">
+                            <img loading="lazy" decoding="async" width="533" height="745" src="https://www.jefferies.com/wp-content/uploads/sites/4/2024/09/7272.jpg?w=1024" alt="Aerial view of large roadway with tree scenery and a cityscape in view with beautiful sky" class="wp-image-15663" srcset="https://www.jefferies.com/wp-content/uploads/sites/4/2024/09/7272.jpg 3840w, https://www.jefferies.com/wp-content/uploads/sites/4/2024/09/7272.jpg?resize=300,169 300w, https://www.jefferies.com/wp-content/uploads/sites/4/2024/09/7272.jpg?resize=768,432 768w, https://www.jefferies.com/wp-content/uploads/sites/4/2024/09/7272.jpg?resize=1024,576 1024w, https://www.jefferies.com/wp-content/uploads/sites/4/2024/09/7272.jpg?resize=1536,864 1536w, https://www.jefferies.com/wp-content/uploads/sites/4/2024/09/7272.jpg?resize=2048,1152 2048w" sizes="(max-width: 3840px) 100vw, 3840px">
+                        </figure>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="border-top py-3">
+                                    <div class="archive-card">
+                                        <div class="archive-card__heading d-flex flex-column gap-2">
+                                            <p class="content-eyebrow fs-14 fw-500 mb-0" style="line-height: 1; letter-spacing: .7px;">The Wide-Angle View</p>
+                                            <h2 class="h4 hover-card__link fw-600">
+                                                The Return of the Strategic Buyer in Tech M&A
+                                            </h2>
+                                        </div>
+                                        <p class=" mb-0">Technology capital markets have been in a transaction winter since the end of 2021. That deep freeze appears to be ending and the field of prospective buyers is expanding.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="border-top py-3">
+                                    <div class="archive-card">
+                                        <div class="archive-card__heading d-flex flex-column gap-2">
+                                            <p class="content-eyebrow fs-14 fw-500 mb-0" style="line-height: 1; letter-spacing: .7px;">The Wide-Angle View</p>
+                                            <h2 class="h4 hover-card__link fw-600">
+                                                The Return of the Strategic Buyer in Tech M&A
+                                            </h2>
+                                        </div>
+                                        <p class=" mb-0">Technology capital markets have been in a transaction winter since the end of 2021. That deep freeze appears to be ending and the field of prospective buyers is expanding.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="border-top py-3">
+                                    <div class="archive-card">
+                                        <div class="archive-card__heading d-flex flex-column gap-2">
+                                            <p class="content-eyebrow fs-14 fw-500 mb-0" style="line-height: 1; letter-spacing: .7px;">The Wide-Angle View</p>
+                                            <h2 class="h4 hover-card__link fw-600">
+                                                The Return of the Strategic Buyer in Tech M&A
+                                            </h2>
+                                        </div>
+                                        <p class=" mb-0">Technology capital markets have been in a transaction winter since the end of 2021. That deep freeze appears to be ending and the field of prospective buyers is expanding.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </main>
