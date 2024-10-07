@@ -67,16 +67,13 @@
             </div>
             <div class="card-body">
                 <div class="panel panel-primary">
-
                     <div class="d-flex justify-content-between align-items-center mb-5">
                         <div class="error-message-container">
                             <div class="media-error-message d-block text-center">
-
                             </div>
                         </div>
                         <div class="paginnation-container">
                             <select name="goto-page" id="goto-page" class="goto-page" style="width: 140px;padding: 5px 11px;border: 1px solid #eee;background: white;border-radius: 17px;">
-
                             </select>
                         </div>
                     </div>

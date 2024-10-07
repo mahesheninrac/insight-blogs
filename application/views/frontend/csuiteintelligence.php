@@ -17,7 +17,6 @@
             <?php require(APPPATH . 'views/frontend/categoryitems.php'); ?>
         </div>
     </div>
-
 </div>
 
 <?php require(APPPATH . 'views/frontend/footer.php'); ?>
