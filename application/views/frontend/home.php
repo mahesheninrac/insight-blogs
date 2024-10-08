@@ -228,49 +228,63 @@
                 <div class="row row-gap-5">
                     <div class="col-md-6">
                         <figure class="h-100">
-                            <img loading="lazy" decoding="async" width="533" height="745" src="https://www.jefferies.com/wp-content/uploads/sites/4/2024/09/7272.jpg?w=1024" alt="Aerial view of large roadway with tree scenery and a cityscape in view with beautiful sky" class="wp-image-15663" srcset="https://www.jefferies.com/wp-content/uploads/sites/4/2024/09/7272.jpg 3840w, https://www.jefferies.com/wp-content/uploads/sites/4/2024/09/7272.jpg?resize=300,169 300w, https://www.jefferies.com/wp-content/uploads/sites/4/2024/09/7272.jpg?resize=768,432 768w, https://www.jefferies.com/wp-content/uploads/sites/4/2024/09/7272.jpg?resize=1024,576 1024w, https://www.jefferies.com/wp-content/uploads/sites/4/2024/09/7272.jpg?resize=1536,864 1536w, https://www.jefferies.com/wp-content/uploads/sites/4/2024/09/7272.jpg?resize=2048,1152 2048w" sizes="(max-width: 3840px) 100vw, 3840px">
+                            <img loading="lazy"
+                                class="wp-image-15663"
+                                decoding="async"
+                                width="533"
+                                height="745"
+                                src="https://www.jefferies.com/wp-content/uploads/sites/4/2024/09/7272.jpg?w=1024"
+                                alt="Aerial view of large roadway with tree scenery and a cityscape in view with beautiful sky"
+                                srcset="https://www.jefferies.com/wp-content/uploads/sites/4/2024/09/7272.jpg 3840w,
+                                 https://www.jefferies.com/wp-content/uploads/sites/4/2024/09/7272.jpg?resize=300,169 300w,
+                                  https://www.jefferies.com/wp-content/uploads/sites/4/2024/09/7272.jpg?resize=768,432 768w,
+                                   https://www.jefferies.com/wp-content/uploads/sites/4/2024/09/7272.jpg?resize=1024,576 1024w,
+                                    https://www.jefferies.com/wp-content/uploads/sites/4/2024/09/7272.jpg?resize=1536,864 1536w,
+                                     https://www.jefferies.com/wp-content/uploads/sites/4/2024/09/7272.jpg?resize=2048,1152 2048w"
+                                sizes="(max-width: 3840px) 100vw, 3840px">
+
                         </figure>
                     </div>
                     <div class="col-md-6">
                         <div class="row">
                             <div class="col-md-12">
-                                <div class="border-top py-3">
-                                    <div class="archive-card">
-                                        <div class="archive-card__heading d-flex flex-column gap-2">
-                                            <p class="content-eyebrow fs-14 fw-500 mb-0" style="line-height: 1; letter-spacing: .7px;">The Wide-Angle View</p>
-                                            <h2 class="h4 hover-card__link fw-600">
-                                                The Return of the Strategic Buyer in Tech M&A
-                                            </h2>
+                                <div class="border-top py-2">
+                                    <div class="card-grid-item__title-contain fs-20">
+                                        <div class="card-grid-item__meta-cat mb-2">
+                                            <a href="" class="card-grid-item__meta-cat-text">The Big Picture</a>
                                         </div>
-                                        <p class=" mb-0">Technology capital markets have been in a transaction winter since the end of 2021. That deep freeze appears to be ending and the field of prospective buyers is expanding.</p>
+                                        <a href="" class="card-grid-item__title-link mb-2">
+                                            <h2 class="card-grid-item__title fw-500">What Will Drive India’s Growth for the Next 20 Years?</h2>
+                                        </a>
+                                        <p class="my-0 fs-18">According to Aashish Agarwal, the Jefferies country head, the country’s economy has undergone profound changes that are often not discussed or understood.</p>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-md-12">
-                                <div class="border-top py-3">
-                                    <div class="archive-card">
-                                        <div class="archive-card__heading d-flex flex-column gap-2">
-                                            <p class="content-eyebrow fs-14 fw-500 mb-0" style="line-height: 1; letter-spacing: .7px;">The Wide-Angle View</p>
-                                            <h2 class="h4 hover-card__link fw-600">
-                                                The Return of the Strategic Buyer in Tech M&A
-                                            </h2>
+                                <div class="border-top py-2">
+                                    <div class="card-grid-item__title-contain fs-20">
+                                        <div class="card-grid-item__meta-cat mb-2">
+                                            <a href="" class="card-grid-item__meta-cat-text">The Big Picture</a>
                                         </div>
-                                        <p class=" mb-0">Technology capital markets have been in a transaction winter since the end of 2021. That deep freeze appears to be ending and the field of prospective buyers is expanding.</p>
+                                        <a href="" class="card-grid-item__title-link mb-2">
+                                            <h2 class="card-grid-item__title fw-500">What Will Drive India’s Growth for the Next 20 Years?</h2>
+                                        </a>
+                                        <p class="my-0 fs-18">According to Aashish Agarwal, the Jefferies country head, the country’s economy has undergone profound changes that are often not discussed or understood.</p>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-md-12">
-                                <div class="border-top py-3">
-                                    <div class="archive-card">
-                                        <div class="archive-card__heading d-flex flex-column gap-2">
-                                            <p class="content-eyebrow fs-14 fw-500 mb-0" style="line-height: 1; letter-spacing: .7px;">The Wide-Angle View</p>
-                                            <h2 class="h4 hover-card__link fw-600">
-                                                The Return of the Strategic Buyer in Tech M&A
-                                            </h2>
+                                <div class="border-top py-2">
+                                    <div class="card-grid-item__title-contain fs-20">
+                                        <div class="card-grid-item__meta-cat mb-2">
+                                            <a href="" class="card-grid-item__meta-cat-text">The Big Picture</a>
                                         </div>
-                                        <p class=" mb-0">Technology capital markets have been in a transaction winter since the end of 2021. That deep freeze appears to be ending and the field of prospective buyers is expanding.</p>
+                                        <a href="" class="card-grid-item__title-link mb-2">
+                                            <h2 class="card-grid-item__title fw-500">What Will Drive India’s Growth for the Next 20 Years?</h2>
+                                        </a>
+                                        <p class="my-0 fs-18">According to Aashish Agarwal, the Jefferies country head, the country’s economy has undergone profound changes that are often not discussed or understood.</p>
                                     </div>
                                 </div>
                             </div>
@@ -278,7 +292,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </main>

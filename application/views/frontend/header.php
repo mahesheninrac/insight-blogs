@@ -76,7 +76,7 @@
                                         </svg>
                                     </a>
                                 </li>
-                            </nav>
+                        </nav>
                         </ul>
                     </div>
                 </div>
@@ -89,6 +89,7 @@
         function showSpinner() {
             loader.classList.add("is-animating")
         }
+
 
         function hideSpinner() {
             loader.classList.remove("is-animating")

@@ -709,3 +709,25 @@ input[type="text"] {
     transform: rotate(360deg);
   }
 }
+
+.wp-image-15663 {
+  height: 100%;
+  object-fit: cover!important;
+  width: 100%;
+  box-sizing: border-box;
+  vertical-align: bottom;
+}
+
+@media (min-width: 768px) {
+  .block-featured-content__featured {
+      align-items: center;
+      flex-direction: row-reverse;
+      padding-top: 8.313rem;
+  }
+}
+
+.block-featured-content__featured {
+  align-items: center;
+  flex-direction: row-reverse;
+  padding-top: 2rem;
+}

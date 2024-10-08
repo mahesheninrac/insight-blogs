@@ -29,13 +29,13 @@
                         <input id="manual-newsletter-signup_lastname" name="lastname" placeholder="Last Name" required="" type="text" aria-describedby="manual-newsletter-signup-last_name-error">
                     </div>
                     <div class="form-input">
-                        <input id="manual-newsletter-signup_email" name="email" placeholder="Enter Your Email…" required="" type="email" aria-describedby="manual-newsletter-signup-email-error" data-gtm-form-interact-field-id="2">
+                        <input id="manual-newsletter-signup_email" name="email" placeholder="Enter Your Email…" required="" type="email" aria-describedby="manual-newsletter-signup-email-error">
                     </div>
                     <div class="form-input">
-                        <input id="manual-newsletter-signup_company" name="company" placeholder="Company" required="" type="text" aria-describedby="manual-newsletter-signup-company-error" data-gtm-form-interact-field-id="3">
+                        <input id="manual-newsletter-signup_company" name="company" placeholder="Company" required="" type="text" aria-describedby="manual-newsletter-signup-company-error">
                     </div>
                     <div class="form-actions">
-                        <button class="form-action button wp-block-button__link" data-bs-dismiss="modal" type="submit">
+                        <button class="form-action button wp-block-button__link" type="submit">
                             Sign up now </button>
                     </div>
                     <div id="manual-newsletter-signup-messages" class="form-messages" aria-live="polite"></div>
@@ -118,6 +118,55 @@
         </div>
     </div>
 </footer>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const form = document.querySelector('form');
+        const messagesDiv = document.getElementById('manual-newsletter-signup-messages');
+
+        form.addEventListener('submit', function(event) {
+            // Clear previous messages
+            messagesDiv.innerHTML = '';
+            let valid = true;
+            let messages = [];
+
+            // Validate First Name
+            const firstName = document.getElementById('manual-newsletter-signup_firstname').value.trim();
+            if (firstName === '') {
+                valid = false;
+                messages.push('First Name is required.');
+            }
+
+            // Validate Last Name
+            const lastName = document.getElementById('manual-newsletter-signup_lastname').value.trim();
+            if (lastName === '') {
+                valid = false;
+                messages.push('Last Name is required.');
+            }
+
+            // Validate Email
+            const email = document.getElementById('manual-newsletter-signup_email').value.trim();
+            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // Simple email regex
+            if (email === '' || !emailPattern.test(email)) {
+                valid = false;
+                messages.push('A valid Email is required.');
+            }
+
+            // Validate Company
+            const company = document.getElementById('manual-newsletter-signup_company').value.trim();
+            if (company === '') {
+                valid = false;
+                messages.push('Company is required.');
+            }
+
+            // If the form is not valid, prevent submission and show messages
+            if (!valid) {
+                event.preventDefault(); // Prevent form submission
+                messagesDiv.innerHTML = messages.join('<br>'); // Display error messages
+            }
+        });
+    });
+</script>
 
 <script type="text/javascript" src="<?= base_url() ?>assets/js/jquery.min.js"></script>
 <script type="text/javascript" src="<?= base_url() ?>assets/plugins/bootstrap.min.js"></script>
