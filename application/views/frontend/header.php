@@ -7,7 +7,8 @@
     <title>Insights</title>
     <link rel="stylesheet" href="<?= base_url() ?>assets/fonts/fonts.css">
     <link rel="stylesheet" href="<?= base_url() ?>assets/css/style.css">
-    <link rel="icon" type="image/png" href="<?= base_url() ?>assets/images/Omnicore-favicon.svg">
+    <link href="https://vjs.zencdn.net/8.16.1/video-js.css" rel="stylesheet" />
+
 </head>
 
 <body>
@@ -85,6 +86,7 @@
     </header>
     <script>
         let loader = document.querySelector(".progress-indicator")
+
 
         function showSpinner() {
             loader.classList.add("is-animating")

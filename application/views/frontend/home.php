@@ -104,7 +104,6 @@
     @media (min-width:64em) {
         h2.h4.hover-card__link {
             line-height: 1;
-
         }
     }
 

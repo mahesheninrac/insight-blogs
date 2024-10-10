@@ -16,12 +16,9 @@
     }
 
     .article-header--is-visible .article-header__meta,
-    .article-header--is-visible .article-header__top,
-    .article-header--is-visible .social-share {
+    .article-header--is-visible .article-header__top {
         opacity: 1;
     }
-
-
 
     .article-header__meta {
         font-size: 0.875rem;
@@ -42,7 +39,7 @@
         transform: scaleX(1);
     }
 
-    .article-header .social-share,
+
     .article-header__meta,
     .article-header__top {
         opacity: 0;
@@ -96,14 +93,6 @@
             font-size: 2.875rem;
         }
 
-        .social-share-title {
-            font-size: 1.125rem;
-        }
-
-        .social-share__link {
-            width: 1.375rem;
-        }
-
         .article__top {
             height: 100%;
             margin-bottom: 2.75rem;
@@ -123,11 +112,7 @@
 
     }
 
-    .social-share-title {
-        font-weight: 600;
-        color: var(--c-navy-bg);
-        margin-right: 0.8rem;
-    }
+
 
     .article-hero--single .article-hero__image-contain {
         aspect-ratio: 593/475;
@@ -145,11 +130,7 @@
         padding: 0;
     }
 
-    .social-share__link {
-        width: 1.25rem;
-        color: var(--c-navy-bg);
-        transition: color 0.15s;
-    }
+
 
     .article__top {
         margin-bottom: 6.5rem;
@@ -184,7 +165,7 @@
         <div class="article__top">
             <div class="row">
                 <div class="col-md-7">
-                    <div class="article-header pt-sm-4 pb-sm-2 w-100 h-100 ">
+                    <div class="article-header animate__animated animate__backInLeft pt-sm-4 pb-sm-2 w-100 h-100 ">
                         <div class="article-header__content">
                             <p class="article-header__top">
                                 <a href="<?= base_url() ?>wideangleview" class="article-header__category-link">
@@ -207,14 +188,19 @@
                                     <span class="time-to-read">1 min read</span>
                                 </div>
                             </div>
-                            <div class="social-share d-block">
-                                <div class="social-share__wrapper d-flex align-items-center gap-2">
-                                    <span class="social-share-title">Share</span>
-                                    <ul class="d-flex align-items-center m-0 ps-0 list-style-none text-left">
+                            <div class=" d-block">
+                                <div class="d-flex align-items-center gap-5">
+                                    <span class="fw-600">Share</span>
+                                    <ul class="d-flex align-items-center m-0 ps-0 list-style-none gap-3 text-left">
                                         <li class="social-share__item">
-                                            <button class="react-share__ShareButton social-share__link social-share__link--email d-flex align-items-center m-0">
+                                            <a href="" class="text-decoration-none fs-20">
                                                 <i class="icofont-linkedin"></i>
-                                            </button>
+                                            </a>
+                                        </li>
+                                        <li class="social-share__item">
+                                            <a href="" class="text-decoration-none fs-20">
+                                                <i class="icofont-linkedin"></i>
+                                            </a>
                                         </li>
                                     </ul>
                                 </div>
@@ -225,7 +211,7 @@
                 <div class="col-md-5">
                     <div class="article-hero w-100 h-100 article-hero--single 
                     ">
-                        <figure class="m-0 article-hero__image-contain animate__animated animate__bounce">
+                        <figure class="m-0 article-hero__image-contain animate__animated animate__bounce ">
                             <img
                                 class="article-hero__image"
                                 src="https://insights-api.jefferies.com/wp-content/uploads/2023/09/Convertible-Debt-High-Low.jpg?w=3840&q=75"
@@ -245,9 +231,13 @@
                 Here, Jefferies Insights shares high-level takeaways from the Private Capital Advisory team.
             </p>
 
+
+
             <div class="article_contained">
                 <a class="wp-block-button__link" href="">Read Full Report</a>
             </div>
+
+
         </div>
     </article>
 </div>

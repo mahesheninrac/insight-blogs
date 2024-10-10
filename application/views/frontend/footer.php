@@ -8,6 +8,11 @@
         width: 100%;
         border: 1px solid #123d68;
     }
+
+    span.fs-12 {
+        font-size: 12px !important;
+        color: red;
+    }
 </style>
 
 <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -23,16 +28,20 @@
                 <form action="" class="d-flex flex-column gap-3">
                     <input type="hidden" id="newsletter_signup_nonce" name="newsletter_signup_nonce" value="8f1eaf9986">
                     <div class="form-input">
-                        <input id="manual-newsletter-signup_firstname" name="firstname" placeholder="First Name" required="" type="text" aria-describedby="manual-newsletter-signup-first_name-error">
+                        <input id="manual-newsletter-signup_firstname" name="firstname" placeholder="First Name" type="text" aria-describedby="manual-newsletter-signup-first_name-error">
+                        <span class=" fs-12 text-red firstname-err"></span>
                     </div>
                     <div class="form-input">
-                        <input id="manual-newsletter-signup_lastname" name="lastname" placeholder="Last Name" required="" type="text" aria-describedby="manual-newsletter-signup-last_name-error">
+                        <input id="manual-newsletter-signup_lastname" name="lastname" placeholder="Last Name" type="text" aria-describedby="manual-newsletter-signup-last_name-error">
+                        <span class=" fs-12 text-red lastname-err"></span>
                     </div>
                     <div class="form-input">
-                        <input id="manual-newsletter-signup_email" name="email" placeholder="Enter Your Email…" required="" type="email" aria-describedby="manual-newsletter-signup-email-error">
+                        <input id="manual-newsletter-signup_email" name="email" placeholder="Enter Your Email…" type="email" aria-describedby="manual-newsletter-signup-email-error">
+                        <span class=" fs-12 text-red email-err"></span>
                     </div>
                     <div class="form-input">
-                        <input id="manual-newsletter-signup_company" name="company" placeholder="Company" required="" type="text" aria-describedby="manual-newsletter-signup-company-error">
+                        <input id="manual-newsletter-signup_company" name="company" placeholder="Company" type="text" aria-describedby="manual-newsletter-signup-company-error">
+                        <span class=" fs-12 text-red company-err"></span>
                     </div>
                     <div class="form-actions">
                         <button class="form-action button wp-block-button__link" type="submit">
@@ -93,7 +102,7 @@
                 </div>
                 <div class="col-md-7">
                     <div class="footer__disclosures d-flex flex-wrap justify-content-md-end justify-content-sm-center align-items-center">
-                        <p class="footer__copyright mb-md-0">© 2024 Jefferies Financial Group Inc.</p>
+                        <p class="footer__copyright mb-md-0">© 2024 Eninrac Consulting Pvt Ltd Inc.</p>
                         <ul class="footer__disclosures-menu d-flex flex-wrap ms-md-2 mb-md-0 ps-0 list-style-none gap-3">
                             <li>
                                 <a href="" class="footer__disclosure-link">
@@ -125,44 +134,48 @@
         const messagesDiv = document.getElementById('manual-newsletter-signup-messages');
 
         form.addEventListener('submit', function(event) {
-            // Clear previous messages
+
             messagesDiv.innerHTML = '';
             let valid = true;
-            let messages = [];
 
-            // Validate First Name
             const firstName = document.getElementById('manual-newsletter-signup_firstname').value.trim();
             if (firstName === '') {
                 valid = false;
-                messages.push('First Name is required.');
+                document.querySelector(".firstname-err").innerHTML = 'First Name is required.'
             }
 
-            // Validate Last Name
             const lastName = document.getElementById('manual-newsletter-signup_lastname').value.trim();
             if (lastName === '') {
                 valid = false;
-                messages.push('Last Name is required.');
+                document.querySelector(".lastname-err").innerHTML = 'Last Name is required.'
             }
 
-            // Validate Email
             const email = document.getElementById('manual-newsletter-signup_email').value.trim();
             const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // Simple email regex
             if (email === '' || !emailPattern.test(email)) {
                 valid = false;
-                messages.push('A valid Email is required.');
+                document.querySelector(".email-err").innerHTML = 'A valid Email is required.'
             }
 
-            // Validate Company
+
             const company = document.getElementById('manual-newsletter-signup_company').value.trim();
             if (company === '') {
                 valid = false;
-                messages.push('Company is required.');
+                document.querySelector(".company-err").innerHTML = 'Company is required.'
             }
 
-            // If the form is not valid, prevent submission and show messages
-            if (!valid) {
-                event.preventDefault(); // Prevent form submission
-                messagesDiv.innerHTML = messages.join('<br>'); // Display error messages
+
+            if (valid) {
+                event.preventDefault();
+                showSpinner()
+                setTimeout(() => {
+                    form.reset()
+                    hideSpinner()
+                    messagesDiv.innerHTML = "form submited successfully";
+                    messagesDiv.classList.add("text-success")
+                }, 2000)
+            } else {
+                event.preventDefault()
             }
         });
     });
@@ -170,30 +183,9 @@
 
 <script type="text/javascript" src="<?= base_url() ?>assets/js/jquery.min.js"></script>
 <script type="text/javascript" src="<?= base_url() ?>assets/plugins/bootstrap.min.js"></script>
-<script type="text/javascript" src="<?= base_url() ?>assets/plugins/moment.min.js"></script>
-<script type="text/javascript" src="<?= base_url() ?>assets/plugins/daterangepicker.js"></script>
 <script type="text/javascript" src="<?= base_url() ?>assets/plugins/owl.carousel.min.js"></script>
-<script type="text/javascript" src="<?= base_url() ?>assets/plugins/popper.js"></script>
-<script type="text/javascript" src="<?= base_url() ?>assets/js/app.js"></script>
+<script src="https://vjs.zencdn.net/8.16.1/video.min.js"></script>
 <script type="text/javascript" src="<?= base_url() ?>assets/js/script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-
-<script>
-    function activeLoader() {
-        let preloader = document.getElementById('preloader');
-        if (preloader) {
-            preloader.classList.add('active')
-        }
-    }
-
-    function deactiveLoader() {
-        let preloader = document.getElementById('preloader');
-        if (preloader) {
-            preloader.classList.remove('active')
-        }
-    }
-</script>
 </body>
 
 </html>

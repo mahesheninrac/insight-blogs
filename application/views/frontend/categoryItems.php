@@ -3,7 +3,7 @@
         <div class="bg-darklight-100 position-relative">
             <div class="card-grid-item__image">
                 <figure class="card-grid-item__image-fit m-0">
-                    <img width="100%" height="100%" src="https://insights-api.jefferies.com/wp-content/uploads/2024/09/f4b912a2-af15-4b4d-b993-67fec2c881d9.jpg?w=750&q=75" alt="">
+                    <img width="100%" height="100%" loading="lazy" class="lazy" src="https://insights-api.jefferies.com/wp-content/uploads/2024/09/f4b912a2-af15-4b4d-b993-67fec2c881d9.jpg?w=750&q=75" alt="">
                 </figure>
             </div>
             <div class="card-grid-item__title-contain fs-20">
@@ -21,7 +21,7 @@
         <div class="bg-darklight-100 position-relative ">
             <div class="card-grid-item__image">
                 <figure class="card-grid-item__image-fit m-0">
-                    <img width="100%" height="100%" src="https://insights-api.jefferies.com/wp-content/uploads/2024/09/f4b912a2-af15-4b4d-b993-67fec2c881d9.jpg?w=750&q=75" alt="">
+                    <img width="100%" height="100%" loading="lazy" class="lazy" src="https://www.jefferies.com/wp-content/uploads/sites/4/2024/01/Proxy-Card-1.jpg" alt="">
                 </figure>
             </div>
             <div class="card-grid-item__title-contain fs-20">
@@ -39,7 +39,7 @@
         <div class="bg-darklight-100 position-relative ">
             <div class="card-grid-item__image">
                 <figure class="card-grid-item__image-fit m-0">
-                    <img width="100%" height="100%" src="https://insights-api.jefferies.com/wp-content/uploads/2024/09/f4b912a2-af15-4b4d-b993-67fec2c881d9.jpg?w=750&q=75" alt="">
+                    <img width="100%" height="100%" loading="lazy" src="https://www.jefferies.com/wp-content/uploads/sites/4/2024/01/ESG-Nature-1.png" alt="">
                 </figure>
             </div>
             <div class="card-grid-item__title-contain fs-20">
