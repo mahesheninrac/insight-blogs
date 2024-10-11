@@ -69,7 +69,8 @@
                         <span class="form__button-text" aria-hidden="true">Search</span>
                         <span class="form__button-icon" aria-hidden="true"><svg viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" width="24" height="24">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M17.867 15.723h-1.129l-.4-.386a9.25 9.25 0 0 0 2.244-6.046A9.29 9.29 0 0 0 9.291 0 9.29 9.29 0 0 0 0 9.291a9.29 9.29 0 0 0 9.291 9.291 9.25 9.25 0 0 0 6.046-2.244l.386.4v1.13L22.87 25 25 22.87l-7.133-7.147Zm-8.576 0a6.424 6.424 0 0 1-6.432-6.432A6.424 6.424 0 0 1 9.29 2.859a6.424 6.424 0 0 1 6.432 6.432 6.424 6.424 0 0 1-6.432 6.432Z" fill="currentColor"></path>
-                            </svg></span>
+                            </svg>
+                        </span>
                     </button>
                 </form>
             </div>

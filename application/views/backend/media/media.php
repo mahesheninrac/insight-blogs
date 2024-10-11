@@ -47,6 +47,7 @@
         padding: 2px;
         color: white;
     }
+    
 </style>
 <!-- PAGE-HEADER END -->
 <div class="row row-sm">

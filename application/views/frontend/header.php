@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="<?= base_url() ?>assets/fonts/fonts.css">
     <link rel="stylesheet" href="<?= base_url() ?>assets/css/style.css">
     <link href="https://vjs.zencdn.net/8.16.1/video-js.css" rel="stylesheet" />
+    <style>
+        .card-grid-item__image .card-grid-item__image-fit img {
+            aspect-ratio: 16/9;
+        }
+    </style>
 
 </head>
 

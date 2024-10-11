@@ -18,14 +18,10 @@
 <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
-            <div class="modal-body">
-                <div class="">
-                    <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <h3>
-                    Join the Insights Mailing List
-                </h3>
-                <form action="" class="d-flex flex-column gap-3">
+            <div class="modal-body p-5">
+                <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h3 class="mb-3">Join the Insights Mailing List</h3>
+                <form action="" class="d-flex flex-column row-gap-4">
                     <input type="hidden" id="newsletter_signup_nonce" name="newsletter_signup_nonce" value="8f1eaf9986">
                     <div class="form-input">
                         <input id="manual-newsletter-signup_firstname" name="firstname" placeholder="First Name" type="text" aria-describedby="manual-newsletter-signup-first_name-error">
@@ -167,10 +163,10 @@
 
             if (valid) {
                 event.preventDefault();
-                showSpinner()
+                messagesDiv.innerHTML = "Processing....";
                 setTimeout(() => {
                     form.reset()
-                    hideSpinner()
+                    messagesDiv.innerHTML = "";
                     messagesDiv.innerHTML = "form submited successfully";
                     messagesDiv.classList.add("text-success")
                 }, 2000)

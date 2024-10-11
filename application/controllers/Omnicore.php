@@ -20,11 +20,17 @@ class Omnicore extends Default_Controler
         if ($id == 'insights') $this->insightspage();
         if ($id == 'insight-details') $this->insightdetailpage();
         if ($id == 'search') $this->searchpage();
+        if ($id == 'peginationtest') $this->peginationtest();
     }
 
     private function login()
     {
         $this->load->view('frontend/login');
+    }
+
+    private function peginationtest()
+    {
+        $this->load->view('frontend/peginationtest');
     }
 
     private function wideangleview()

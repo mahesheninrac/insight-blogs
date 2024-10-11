@@ -2,7 +2,6 @@
 @import "owl.carousel.min.css";
 @import "owl.theme.default.min.css";
 
-
 /* primary colors secondary color */
 
 :root {
@@ -400,16 +399,6 @@ img {
   text-decoration: underline;
 }
 
-.card-grid-item__title-link::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
-  right: 0;
-}
-
 .card-grid-item__title {
   font-size: clamp(1.5rem, 1.563rem + 1.202vw, 1.75rem);
   line-height: 1.35;
@@ -614,6 +603,7 @@ article.hover-card:hover {
   background-color: #123d68;
   content: "";
   height: 100%;
+
   left: 0;
   margin-left: calc(-50vw + 50% + 17px / 2);
   margin-right: calc(-50vw + 50% + 17px / 2);
@@ -712,7 +702,7 @@ input[type="text"] {
 
 .wp-image-15663 {
   height: 100%;
-  object-fit: cover!important;
+  object-fit: cover !important;
   width: 100%;
   box-sizing: border-box;
   vertical-align: bottom;
@@ -720,9 +710,9 @@ input[type="text"] {
 
 @media (min-width: 768px) {
   .block-featured-content__featured {
-      align-items: center;
-      flex-direction: row-reverse;
-      padding-top: 8.313rem;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-top: 8.313rem;
   }
 }
 
